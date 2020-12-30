@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;800&display=swap" rel="stylesheet">
+    <title>UnBOXED</title>
+</head>
+<body>
+    <header id="header-section">
+        <nav>
+            <div class="logo"><a href="index.html">Un<span>BOXED</span></a></div>
+            <div class="nav-list">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">men</a>
+                    </li>
+                    <li>
+                        <a href="#">women</a>
+                    </li>
+                    <li>
+                        <a href="#">new releases</a>
+                    </li>
+                    <li>
+                        <a href="#">sale</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="favorites">
+                <i id="favs" class="fas fa-heart"></i>
+            </div>
+            <div class="shopping-cart">
+                <p id="itemsInCart"></p>
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </nav>
+        <div class="header-text-container">
+            <h1>Un<span class="red-text">Box</span> something <br>brand <span class="red-text">new</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam labore, facere itaque at ratione tenetur ab cupiditate fugit vel! Repudiandae!</p>
+            <button class="shop-btn">shop now</button>
+        </div>
+        <img class="heroImg" src="/imgs/hero.jpg" alt="white airforce ones">
+    </header>
+
+    <section class="shopping-container">
+        <div class="men-shoes">
+            <h2>Men's Shoes</h2>
+            <a href="#">Show All <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+        <div class="men-product-container">
+            <div class="product-card">
+                <div class="new-tag">new</div>
+                <a href="/menProduct1.html">
+                    <div class="product-img">
+                        <img src="/imgs/product-shoe-2.png" alt="">
+                    </div>
+                </a>
+                <div class="product-info">
+                    <h3 class="product-name">Jordan Retro 13</h3>
+                    <p class="product-description">Men's white/lucky green/black</p>
+                    <p class="price">$190.00</p>
+                    <i id="btnHeart" class="fas fa-heart" onclick="addFavorites()"></i>
+                </div>
+                
+            </div>
+    
+            <div class="product-card">
+                <a href="#">
+                    <div class="product-img">
+                        <img src="/imgs/product-shoe-1.png" alt="">
+                    </div>
+                </a>
+                <div class="product-info">
+                    <h3 class="product-name">Jordan Retro 13</h3>
+                    <p class="product-description">Men's white/lucky green/black</p>
+                    <p class="price">$190.00</p>
+                    <i id="btnHeart" class="fas fa-heart" onclick="addFavorites()"></i>
+                </div>
+                
+            </div>
+    
+            <div class="product-card">
+                <a href="#">
+                    <div class="product-img">
+                        <img src="/imgs/product-shoe-3.png" alt="">
+                    </div>
+                </a>
+                <div class="product-info">
+                    <h3 class="product-name">Jordan Retro 13</h3>
+                    <p class="product-description">Men's white/lucky green/black</p>
+                    <p class="price">$190.00</p>
+                    <i id="btnHeart" class="fas fa-heart" onclick="addFavorites()"></i>
+                </div>
+                
+            </div>
+    
+            <div class="product-card">
+                <a href="#">
+                    <div class="product-img">
+                        <img src="/imgs/product-shoe-4.png" alt="">
+                    </div>
+                </a>
+                <div class="product-info">
+                    <h3 class="product-name">Jordan Retro 13</h3>
+                    <p class="product-description">Men's white/lucky green/black</p>
+                    <p class="price">$190.00</p>
+                    <i id="btnHeart" class="fas fa-heart" onclick="addFavorites()"></i>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="women-shoes">
+            <h2>Women's Shoes</h2>
+            <a href="#">Show All <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+        <div class="women-product-container">
+            <div class="product-card">
+                <a href="#">
+                    <div class="product-img">
+                        <img src="/imgs/product-shoe-5.png" alt="">
+                    </div>
+                </a>
+                <div class="product-info">
+                    <h3 class="product-name">Jordan Retro 13</h3>
+                    <p class="product-description">Men's white/lucky green/black</p>
+                    <p class="price">$190.00</p>
+                    <i id="btnHeart" class="fas fa-heart" onclick="addFavorites()"></i>
+                </div>
+                
+            </div>
+    
+            <div class="product-card">
+                <a href="#">
+                    <div class="product-img">
+                        <img src="/imgs/product-shoe-6.png" alt="">
+                    </div>
+                </a>
+                <div class="product-info">
+                    <h3 class="product-name">Jordan Retro 13</h3>
+                    <p class="product-description">Men's white/lucky green/black</p>
+                    <p class="price">$190.00</p>
+                    <i id="btnHeart" class="fas fa-heart" onclick="addFavorites()"></i>
+                </div>
+                
+            </div>
+    
+            <div class="product-card">
+                <div class="new-tag">new</div>
+                <a href="#">
+                    <div class="product-img">
+                        <img src="/imgs/product-shoe-7.png" alt="">
+                    </div>
+                </a>
+                <div class="product-info">
+                    <h3 class="product-name">Jordan Retro 13</h3>
+                    <p class="product-description">Men's white/lucky green/black</p>
+                    <p class="price">$190.00</p>
+                    <i id="btnHeart" class="fas fa-heart" onclick="addFavorites()"></i>
+                </div>
+                
+            </div>
+    
+            <div class="product-card">
+                <a href="#">
+                    <div class="product-img">
+                        <img src="/imgs/product-shoe-8.png" alt="">
+                    </div>
+                </a>
+                <div class="product-info">
+                    <h3 class="product-name">Jordan Retro 13</h3>
+                    <p class="product-description">Men's white/lucky green/black</p>
+                    <p class="price">$190.00</p>
+                    <i id="btnHeart" class="fas fa-heart" onclick="addFavorites()"></i>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <script src="/app.js"></script>
+</body>
+</html>
